@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(187, 180, 180);
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+.post {
+    background-color: white;
+    margin-top: 15px;
+}
+
+.post img {
+    width: 100%;
+}
+
+
+h2 {
+    width: 350px;
+    float: left;
+}
+
+.post .post-header :first-child {
+    display: inline-block;
+    width: 200;
+    text-align: left;
+}
+
+.post h2, .post p {
+    padding: 10px;
+    margin: 0%;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+span {
+    float: right;
+    width: 200px;
+}
